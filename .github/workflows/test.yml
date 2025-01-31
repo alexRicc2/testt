@@ -25,7 +25,7 @@ jobs:
       # Add the upstream repository
       - name: Add Upstream Remote
         run: |
-          git remote add upstream https://${{ secrets.UPSTREAM_PAT }}@github.com/The-SEO-Hustler/static-pages-websites.git
+          git remote add upstream https://${{ secrets.UPSTREAM_PAT }}@github.com/The-SEO-Hustler/static-pages-websites
 
       # Fetch the latest changes from upstream
       - name: Fetch Upstream Changes
